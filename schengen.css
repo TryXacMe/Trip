@@ -1,0 +1,499 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui;
+}
+
+body {
+    width: 1520px;
+    margin: 0 auto;
+}
+
+.header,
+section {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    height: 729px;
+}
+
+.header {
+    background-image: url(./assents/fon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    margin: 0 auto;
+}
+
+.header__item, 
+.footer__item {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header__email {
+    width: 15px;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.header__btn {
+    background: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 6px 15px;
+    border-radius: 6px;
+    border: 1px solid white;
+    color: white;
+}
+
+.header__title {
+    padding-top: 200px;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+}
+
+.header__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.header__FAQ {
+    margin: 25px auto;
+    background-color: white;
+    width: 1240px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 27px;
+    border-radius: 8px;
+}
+
+.faq__calendar {
+    width: 15px;
+}
+
+.hr {
+    width: 1px;
+    height: 30px;
+}
+
+.faq__text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.header__btn2 {
+    margin-left: 635px;
+    padding: 24px 32px;
+    color: white;
+    background-color: blue;
+    border: none;
+    border-radius: 8px;
+}
+
+.input {
+    border: none;
+}
+
+.intro__boxs {
+    margin-top: 56px;
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.intro__box {
+    gap: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.intro__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: #11002D;
+}
+
+.insurance__title {
+    margin: 0 auto;
+    width: 805px;
+    height: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 91%;
+    color: #11002D;
+    margin-bottom: 40px;
+}
+
+.insurance__text {
+    width: 603px;
+    height: 200px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 170%;
+    color: #11002d95;
+}
+
+.box__title {
+    font-family: Times;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 170%;
+    color: #11002D;
+}
+
+.insurance__item {
+    color: purple;
+}
+
+.insurance__boxs {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.insurance {
+    margin-bottom: 150px;
+}
+
+.buy__title {
+    margin: 0 auto;
+    width: 298px;
+    height: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 91%;
+    color: #11002D;
+}
+
+.buy__boxs {
+    margin-bottom: 100px;
+    margin-top: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buy__box {
+    width: 295px;
+    height: 295px;
+    background: rgba(82, 0, 217, 0.1);
+    border-radius: 5px;
+}
+
+.mini__img {
+    margin-top: 70px;
+    width: 114px;
+    height: 114px;
+}
+
+.buy__box {
+    position: relative;
+}
+
+.box__number {
+    position: absolute;
+    left: 10px;
+    top: -35px;
+    width: 64px;
+    height: 192px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 128px;
+    line-height: 150%;
+    color: #5200D9;
+    opacity: 0.1;
+}
+
+.mini__text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.box__mini {
+    text-align: center;
+}
+
+.company__title {
+    text-align: center;
+}
+
+.company__boxs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
+}
+
+.box__title {
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 91%;
+    color: #11002D;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.box__text {
+    width: 613px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #11002D;
+}
+
+.img {
+    margin-top: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.company__content {
+    margin-bottom: 150px;
+}
+
+.row {
+    overflow: hidden;
+}
+
+.row+.row {
+    border-top: 1px solid #d9d9e3;
+}
+
+.row__track {
+    display: flex;
+    width: max-content;
+    white-space: nowrap;
+    margin-left: -40px;
+}
+
+.row__shift .row__track {
+    margin-left: 30px;
+}
+
+.row__item {
+    padding: 20px;
+    font-size: 32px;
+    font-weight: 800;
+    color: #11002d;
+}
+
+.row__hr {
+    height: 5px;
+    background-color: #5200D9;
+}
+
+.row__track {
+    margin: auto;
+}
+
+.row__item {
+    font-size: 38px;
+}
+
+.bottom {
+    margin-bottom: 100px;
+}
+
+.reviews {
+    height: auto;
+    padding: 60px 0;
+}
+
+.reviews__title {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 91%;
+    color: #11002d;
+}
+
+.reviews__list {
+    margin-top: 46px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.review {
+    width: 295px;
+    padding: 20px 15px;
+    background: rgba(82, 0, 217, 0.1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.review__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.review__stars {
+    display: flex;
+    gap: 2px;
+}
+
+.review__star {
+    font-size: 26px;
+    line-height: 1;
+    color: #ffe600;
+}
+
+.review__date {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #11002d;
+}
+
+.review__text {
+    margin-top: 12px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #11002d;
+}
+
+.review__author {
+    margin-top: auto;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.review__avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review__name {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #4a4a5a;
+}
+
+
+.footer {
+    width: 1521px;
+    margin: 0 auto;
+    border-top: 1px solid #e5e5ea;
+}
+
+.footer__container {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 30px 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer__title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #11002d;
+}
+
+.footer__list {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer__link {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #11002d;
+}
+
+.footer__link:hover {
+    color: #5200d9;
+}
+
+.footer__socials {
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: repeat(4, 24px);
+    gap: 14px 18px;
+}
+
+.footer__icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+
+.logo {
+    position: relative;
+    top: -13px;
+}
